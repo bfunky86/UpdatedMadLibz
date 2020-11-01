@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+
+#intro {
+    padding: 20px;
+    margin: 5% auto 5% auto;
+    height: 300px;
+    width: 400px;
+    border: 2px solid blueviolet;
+    border-radius: 14px;
+    background-color: chartreuse;
+    text-align: center;
+    color: blueviolet;
+}
+
+#output {
+    height: 400px;
+    width: 600px;
+    background-color: chartreuse;
+    border: 2px solid blueviolet;
+    border-radius: 14px;
+    color: blueviolet;
+    margin: 6% auto 2% auto;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.intro h1 {
+    margin-top: 10%;
+}
+
+.activateButton {
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 100px;
+    margin: 20px 30px 20px 30px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.activateButton:hover{
+    background-color: blue;
+    color: white;
+}
+
+.choices-top {
+    height: 200px;
+    width: 300px;
+    margin-top: -4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: chartreuse;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    display: none;
+    text-align: center;
+}
+
+.choices-bottom {
+    height: 200px;
+    width: 300px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -12%;
+    background-color: chartreuse;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    display: none;
+    text-align: center;
+}
+
+#nouns {
+    float:left;
+}
+
+#verbs {
+    float: left;
+}
+
+#adjectives {
+    float: right;
+}
+
+#adverbs {
+    float:right;
+}
+.currentWord {
+    background-color: blueviolet;
+}
+
