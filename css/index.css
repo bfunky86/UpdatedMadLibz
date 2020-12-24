@@ -1,101 +1,120 @@
-body {
-    background-color: black;
-    font-family: Comic Sans MS, Comic Sans, cursive
+.titleLogo {
+  font-size: 48px;
+  color: blueviolet;
 }
 
+#author {
+  margin-left: 4%;
+  font-size: 18px;
+  color: blueviolet;
+}
+
+#logoRule {
+  width: 25%;
+  margin: 0;
+  border-top: 3px solid blueviolet;
+  border-radius: 10px;
+}
+
+body {
+  background-color: black;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  padding: 0px;
+}
+
+.content {
+  margin: 0;
+}
 
 #intro {
-    padding: 20px;
-    margin: 5% auto 5% auto;
-    height: 300px;
-    width: 400px;
-    border: 2px solid blueviolet;
-    border-radius: 14px;
-    background-color: chartreuse;
-    text-align: center;
-    color: blueviolet;
+  padding: 20px;
+  margin: 10% auto 10% auto;
+  height: 300px;
+  width: 400px;
+  border: 2px solid blueviolet;
+  border-radius: 14px;
+  background-color: chartreuse;
+  text-align: center;
+  color: blueviolet;
 }
 
 #output {
-    height: 400px;
-    width: 600px;
-    background-color: chartreuse;
-    border: 2px solid blueviolet;
-    border-radius: 14px;
-    color: blueviolet;
-    margin: 6% auto 2% auto;
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 20px;
-    text-align: left;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 2px;
+  height: 400px;
+  width: 600px;
+  margin-top: 5%;
+  margin-left: 25%;
+  background-color: chartreuse;
+  border: 2px solid blueviolet;
+  border-radius: 14px;
+  color: blueviolet;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+#optionBox {
+  height: 300px;
+  width: 300px;
+  background-color: chartreuse;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 14px;
+  margin-top: -25%;
+  margin-left: 70%;
+  text-align: center;
+  display: none;
+  font-size: 24px;
 }
 
 .intro h1 {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .activateButton {
-    height: 50px;
-    outline: none;
-    font-size: 20px;
-    border-radius: 12px;
-    width: 100px;
-    margin: 20px 30px 20px 30px;
-    background-color: blueviolet;
-    color: white;
+  height: 50px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 12px;
+  width: 100px;
+  margin: 20px 30px 20px 30px;
+  background-color: blueviolet;
+  color: white;
 }
 
-.activateButton:hover{
-    background-color: blue;
-    color: white;
+.activateButton:hover {
+  background-color: blue;
+  color: white;
 }
 
-.choices-top {
-    height: 200px;
-    width: 300px;
-    margin-top: -4%;
-    margin-left: 2%;
-    margin-right: 2%;
-    background-color: chartreuse;
-    border: 2px solid blueviolet;
-    border-radius: 12px;
-    display: none;
-    text-align: center;
+#reset {
+  position: absolute;
+  width: 200px;
+  top: 300px;
+  left: 140px;
 }
 
-.choices-bottom {
-    height: 200px;
-    width: 300px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: -12%;
-    background-color: chartreuse;
-    border: 2px solid blueviolet;
-    border-radius: 12px;
-    display: none;
-    text-align: center;
+.mutables {
+  background-color: black;
+  text-decoration: none;
+  border: none;
+  padding: 0 !important;
+  outline: none;
+  color: blueviolet;
+  font-size: 24px;
+  cursor: pointer;
 }
 
-#nouns {
-    float:left;
+.optionButtons {
+  width: 150px;
+  margin-top: 25px;
+  padding: 5px;
+  outline: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+  border-radius: 14px;
 }
-
-#verbs {
-    float: left;
-}
-
-#adjectives {
-    float: right;
-}
-
-#adverbs {
-    float:right;
-}
-.currentWord {
-    background-color: blueviolet;
-}
-

@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mad Libz</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script type="text/javascript" src="words/nouns.js" async></script>
     <script type="text/javascript" src="words/verbs.js" async></script>
     <script type="text/javascript" src="words/adverbs.js" async></script>
     <script type="text/javascript" src="scripts/index.js" async></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+  </head>
 
-<body>
-
+  <body>
+    <label class="titleLogo" id="titleLogo">MadLibz</label>
+    <label id="author">created by Uncle Button</label>
+    <hr id="logoRule" />
     <div id="intro">
-        <h1>Are you ready to play</h1>
-        <h1>Mad Libz?</h1>
-        <h2>Click below to begin...</h2>
-        <button class="activateButton" id="yes">Click Me!</button>
+      <h1>Are you ready to play</h1>
+      <h1>Mad Libz?</h1>
+      <h2>Click below to begin...</h2>
+      <button class="activateButton" id="yes">Click Me!</button>
     </div>
-
-    <div class="choices-top" id="nouns">Nouns</div>
-    <div class="choices-top" id="adjectives">Adjectives</div>
-    <div class="main-window" id="output"></div>
-    <div class="choices-bottom" id="verbs">Verbs</div>
-    <div class="choices-bottom" id="adverbs">Adverbs</div>
-
-    
-</body>
-
+    <div class="content">
+      <button class="activateButton" id="reset">Reset</button>
+      <div class="main-window" id="output"></div>
+      <div id="optionBox"></div>
+      </div>
+    </div>
+  </body>
 </html>
