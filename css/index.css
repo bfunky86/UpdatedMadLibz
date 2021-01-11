@@ -1,52 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 90%;
+}
+
 .titleLogo {
   font-size: 48px;
-  color: blueviolet;
+  color: #00058f;
 }
 
 #author {
   margin-left: 4%;
   font-size: 18px;
-  color: blueviolet;
+  color: #00058f;
 }
 
 #logoRule {
   width: 25%;
   margin: 0;
-  border-top: 3px solid blueviolet;
+  border-top: 3px solid #00058f;
   border-radius: 10px;
 }
 
 body {
-  background-color: black;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  background: url("../background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bitter", serif;
   padding: 0px;
 }
 
 .content {
   margin: 0;
+  display: none;
 }
 
 #intro {
   padding: 20px;
   margin: 10% auto 10% auto;
-  height: 300px;
-  width: 400px;
-  border: 2px solid blueviolet;
+  height: 22rem;
+  width: 24rem;
+  border: 2px solid #dbb100;
   border-radius: 14px;
-  background-color: chartreuse;
+  background-color: #00058f;
   text-align: center;
-  color: blueviolet;
+  color: #dbb100;
 }
 
 #output {
-  height: 400px;
-  width: 600px;
+  height: 25rem;
+  width: 45rem;
   margin-top: 5%;
-  margin-left: 25%;
-  background-color: chartreuse;
-  border: 2px solid blueviolet;
+  margin-left: 30%;
+  background-color: #00058f;
+  border: 2px solid #dbb100;
   border-radius: 14px;
-  color: blueviolet;
+  color: #dbb100;
   display: inline-block;
   text-align: center;
   padding: 20px;
@@ -57,17 +70,22 @@ body {
 }
 
 #optionBox {
-  height: 300px;
+  height: 350px;
   width: 300px;
-  background-color: chartreuse;
-  color: blueviolet;
-  border: 2px solid blueviolet;
+  background-color: #00058f;
+  color: #dbb100;
+  padding-top: 2rem;
+  border: 2px solid #dbb100;
   border-radius: 14px;
-  margin-top: -25%;
+  margin-top: -24.5%;
   margin-left: 70%;
   text-align: center;
   display: none;
   font-size: 24px;
+}
+
+button {
+  font-family: inherit;
 }
 
 .intro h1 {
@@ -79,31 +97,29 @@ body {
   outline: none;
   font-size: 20px;
   border-radius: 12px;
-  width: 100px;
+  width: 7rem;
   margin: 20px 30px 20px 30px;
-  background-color: blueviolet;
+  background-color: #dbb100;
   color: white;
 }
 
 .activateButton:hover {
-  background-color: blue;
-  color: white;
+  background-color: #1921ff;
+  color: #dbb100;
 }
 
 #reset {
-  position: absolute;
-  width: 200px;
-  top: 300px;
-  left: 140px;
+  width: 708px;
+  margin-left: 577px;
 }
 
 .mutables {
-  background-color: black;
+  background: linear-gradient(to left, #0000cc 0%, #99ccff 100%);
   text-decoration: none;
   border: none;
   padding: 0 !important;
   outline: none;
-  color: blueviolet;
+  color: white;
   font-size: 24px;
   cursor: pointer;
 }
@@ -113,8 +129,13 @@ body {
   margin-top: 25px;
   padding: 5px;
   outline: none;
-  background-color: blueviolet;
+  background-color: #dbb100;
   color: white;
   font-size: 18px;
   border-radius: 14px;
+}
+
+.optionButtons:hover {
+  background-color: #1921ff;
+  color: #dbb100;
 }
